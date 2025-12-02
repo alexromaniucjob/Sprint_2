@@ -11,10 +11,6 @@ public class ShoppingCart{
         this.items = arrayFood;
     }
 
-   // public Food[] getItems() {
-   //     return items;
-   // }
-
     //получить общую сумму товаров в корзине без скидки,
     public double getTotalSum() {
         double sum = 0;

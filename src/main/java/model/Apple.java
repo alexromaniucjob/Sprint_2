@@ -27,9 +27,9 @@ public class Apple extends Food implements Discountable{
         }
     }
 
-    public String getColour() {
-    return colour;
-    }
+   // public String getColour() {
+   // return colour;
+   // }
 }
 
 
