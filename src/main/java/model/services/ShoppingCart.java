@@ -4,7 +4,7 @@ import model.Discountable;
 
 //Все переменные класса должны быть недоступны извне, если не указано иное.
 public class ShoppingCart{
-    private Food[] items;
+    private final Food[] items;
 
     //Нужен конструктор с одним параметром — массивом элементов Food. С его помощью создается объект корзины.
     public ShoppingCart(Food[] arrayFood) {
